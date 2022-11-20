@@ -363,15 +363,7 @@ line-height:0.04;
 /* item4 */
 
 
-.item4-1
-{ 
-grid-column: 1 / span 3;
-margin: auto;
-display: flex;
-flex-direction:column;
-justify-content:center;
-width:60%;
-}
+
 
 img.service
 {
@@ -921,7 +913,6 @@ margin:auto;
 display: flex;
 justify-content: center;
 flex-direction: column;
-
 }
 
 
@@ -1127,7 +1118,6 @@ display:none
 {
 display: flex;
 flex-direction:column;
-margin-top:400px;
 }
 
 
@@ -1139,13 +1129,7 @@ padding:6px;
 
 /* item4 */
 
-.item4-1
-{
-width: 100%;
-display: flex;
-flex-direction: column;
-margin-top:520px;
-}
+
 
 .btn
 {
@@ -1179,7 +1163,7 @@ height:100px;
 
 .item5
 {
-margin-top:30px;
+
 width:100%;
 }
 
