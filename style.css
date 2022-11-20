@@ -363,7 +363,15 @@ line-height:0.04;
 /* item4 */
 
 
-
+.item-4
+{
+margin:auto;
+grid-column: 1 / span 3;
+display: flex;
+flex-direction:column;
+justify-content:center;
+width:60%;
+}
 
 img.service
 {
@@ -1105,7 +1113,7 @@ font-size:small;
 
 .item3 
 {
-margin-top:150px;
+margin-top:550px;
 width:100%;
 }
 
@@ -1129,6 +1137,14 @@ padding:6px;
 
 /* item4 */
 
+.item-4
+{
+margin-top:450px;
+display: flex;
+flex-direction:column;
+justify-content:center;
+width:100%;
+}
 
 
 .btn
@@ -1148,12 +1164,13 @@ text-align: center;
 {
 display: flex;
 flex-direction: column;
+justify-content: center;
 width:100%;
 }
 
 img.service1 , img.service2 , img.service3
 {
-margin-left:80px;
+
 width:200px;
 height:100px;
 }
