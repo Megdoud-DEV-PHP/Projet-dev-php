@@ -373,6 +373,7 @@ justify-content:center;
 width:60%;
 }
 
+
 img.service
 {
 border-left:double 50px white;
@@ -612,6 +613,17 @@ border-right:ridge 5px brown;
  border-left: ridge 5px yellow;
  margin-left:12px;
 }
+
+.item4-1
+{
+grid-column: 1 / span 3;
+display: flex;
+flex-direction:column;
+justify-content:center;
+width:60%;
+}
+
+
 
 
 
@@ -859,7 +871,12 @@ margin-left:110px;
 
 .item4-1
 {
-margin-top:100px;
+margin:auto;
+grid-column: 1 / span 3;
+display: flex;
+flex-direction:column;
+justify-content:center;
+width:60%;
 }
 
 
@@ -1170,7 +1187,7 @@ width:100%;
 
 img.service1 , img.service2 , img.service3
 {
-
+margin-left:100px;
 width:200px;
 height:100px;
 }
@@ -1180,7 +1197,6 @@ height:100px;
 
 .item5
 {
-
 width:100%;
 }
 
@@ -1239,6 +1255,8 @@ margin-left:12px;
 width:100%;
 margin-top:20px;
 }
+
+
 }
 
 /* Partie responsive design  */
